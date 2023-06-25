@@ -1,24 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*   ft_print_tab.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/09/22 22:03:46 by alejarod          #+#    #+#             */
-/*   Updated: 2023/06/25 14:37:59 by alejarod         ###   ########.fr       */
+/*   Created: 2023/06/25 13:43:21 by alejarod          #+#    #+#             */
+/*   Updated: 2023/06/25 14:16:47 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-/**
- * @brief writes a character to the specified file descriptor.
- * 
- * @param c a character
- * @return void
- */
-void	ft_putchar_fd(char c, int fd)
+void	ft_print_tab(char **str)
 {
-	write (fd, &c, 1);
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		ft_printf("%s\n", str[i]);
+		i++;
+	}
 }

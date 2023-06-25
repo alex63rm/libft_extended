@@ -6,7 +6,7 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 00:18:10 by alejarod          #+#    #+#             */
-/*   Updated: 2023/06/25 13:39:55 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/25 14:15:47 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -94,5 +94,9 @@ size_t	ft_putnbr_u(unsigned int k);
 size_t	ft_puthex_lower(unsigned int hex);
 size_t	ft_puthex_upper(unsigned int hex);
 size_t	ft_putptr(size_t address);
+
+/* ------------------------------EXTENDED----------------------------------- */
+
+void	ft_print_matrix(char **str);
 
 #endif
