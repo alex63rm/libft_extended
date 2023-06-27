@@ -6,11 +6,22 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/11 12:39:01 by alejarod          #+#    #+#             */
-/*   Updated: 2022/09/28 21:33:25 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/27 23:41:10 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * @brief Allocates (with malloc) and returns a new substring from the string s.
+ * The substring begins at index start and is of size len. So it is like
+ * copying a specific part of a string into a new string
+ * 
+ * @param s the string to copy from
+ * @param start index to start copying the new substring
+ * @param len number of characters to copy
+ * @return char* the new substring
+ */
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)
 {

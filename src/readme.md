@@ -1,5 +1,6 @@
 # Brief summary
 This projects extends the basic libft with some additional functions.
+Every function includes a brief description, including the parameters and return values
 
 # Additional functions
 - ft_printf

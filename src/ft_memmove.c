@@ -6,11 +6,22 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/31 20:55:21 by alejarod          #+#    #+#             */
-/*   Updated: 2022/09/28 21:20:10 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/28 00:15:28 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * @brief copies "len" bytes from "src" to "dst". The two strings may overlap; 
+ * the copy is always done in a non-destructive manner. Casting to char * is
+ * assumed, but it is valid for any data type if modified accordingly.
+ * 
+ * @param dst the memory area were src will be copied
+ * @param src the memory area to copy
+ * @param len the number of bytes to be copied, acts as an index
+ * @return void* a pointer to the destination memory area
+ */
 
 void	*ft_memmove(void *dst, const void *src, size_t len)
 {
