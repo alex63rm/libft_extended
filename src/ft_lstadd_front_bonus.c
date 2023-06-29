@@ -6,7 +6,7 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/18 17:36:41 by alejarod          #+#    #+#             */
-/*   Updated: 2023/06/29 22:09:21 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/29 22:19:35 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,6 @@
 /**
  * @brief this function adds a node at the beggining of a list, thus becoming
  * the new head of the list.
- * 
  * @param lst a pointer to the old head of the list.
  * @param new the new node to be inserted before the head
  */

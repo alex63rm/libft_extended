@@ -6,7 +6,7 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 21:18:18 by alejarod          #+#    #+#             */
-/*   Updated: 2023/06/29 22:08:18 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/29 22:19:38 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
  * applies a function to delete the content, looping until all the nodes have
  * been deleted. A temp node is needed in order not to lose the position of the
  * head that will be the last node to be deleted (equaling the address to 0)
- * 
  * @param lst address to the head node of the linked list
  * @param del function that delets the content of a node
  */

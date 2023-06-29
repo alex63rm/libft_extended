@@ -6,7 +6,7 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/18 15:09:00 by alejarod          #+#    #+#             */
-/*   Updated: 2023/06/29 21:48:03 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/29 22:19:50 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,6 @@
  * node will be the head of the list. Then, assign the content passed as
  * argument to the content variable. The "next" field is set to NULL, indicating
  * the end of te list.
- * 
  * @param content the data passed as argument that will be saved in the node
  * @return t_list* returns the newly created node or 0 if malloc failed
  */
