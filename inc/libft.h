@@ -6,7 +6,7 @@
 /*   By: alejarod <alejarod@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/14 00:18:10 by alejarod          #+#    #+#             */
-/*   Updated: 2023/06/27 22:32:09 by alejarod         ###   ########.fr       */
+/*   Updated: 2023/06/29 21:40:50 by alejarod         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,12 +19,6 @@
 # include <stdlib.h>
 # include <string.h>
 # include <stdarg.h>
-
-/* --------------------------BUFFER SIZE FOR GNL----------------------------- */
-
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 100
-# endif
 
 /* -------------------------------STRUCTURES--------------------------------- */
 
